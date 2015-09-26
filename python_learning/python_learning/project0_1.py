@@ -7,5 +7,5 @@ def draw_graph() :
 		G.add_edges_from([(1, 2), (2, 3), (1, 3), (1, 4)])
 		nx.draw(G)
 		plt.savefig("simple_graph.png");
-
 draw_graph()
+print();
